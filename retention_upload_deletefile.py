@@ -8,12 +8,12 @@ from datetime import datetime, timedelta
 from botocore.exceptions import ClientError
 
 # AWS Configuration
-AWS_REGION = 'eu-north-1'
-BUCKET_NAME = 'newawwsbucket266666666'
-S3_FOLDER = 'localfiles/'  # S3 key prefix, not s3://...
+AWS_REGION = 'us-east-1'  # Change as per your region
+BUCKET_NAME = 'your-s3-bucket-name'
+S3_FOLDER = 'your/s3/folder/'  # S3 key prefix, not s3://...
 
 # Local folder path
-LOCAL_FOLDER = '/home/ubuntu/local_folder'
+LOCAL_FOLDER =  '/path/to/your/local/folder'
 
 # Retention period (in seconds)
 RETENTION_PERIOD_SECONDS = 24 * 60 * 60  # 1 day
