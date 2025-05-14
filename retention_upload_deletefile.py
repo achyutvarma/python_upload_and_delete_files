@@ -1,9 +1,6 @@
 # Updated Script with Retention Period Logic
 This example uses a retention period of 1 day (24 hours). You can adjust it easily.
 
-python
-Copy
-Edit
 import os
 import boto3
 import time
